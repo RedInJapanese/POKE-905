@@ -3,4 +3,3 @@ pip install requests
 pip install random
 
 python crawler.py
-rm *.png
