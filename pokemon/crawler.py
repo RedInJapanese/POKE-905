@@ -27,7 +27,7 @@ open(buffer, "wb").write(lol.content)
 
 img = Image.open(buffer, 'r')
 l = list(img.getdata())
-sys.stdout = open('rgb.text','w')
+sys.stdout = open('rgb.txt','w')
 for i in l: 
     for x in i: 
         if x not in noise:
