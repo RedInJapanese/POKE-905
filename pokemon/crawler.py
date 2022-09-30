@@ -1,14 +1,16 @@
+from pkgutil import get_data
 import bs4
 import requests
 from random import seed
 from random import randint
-import cv
+from PIL import Image
 
 url = 'https://raw.githubusercontent.com/msikma/pokesprite/master/icons/pokemon/regular/'
 
 file = open('list.txt')
 count = 0
 db = {}
+noise = [0, 32, 255, 82]
 for x in file: 
     db[count] = x.strip()
     count+=1
@@ -22,9 +24,12 @@ link = url+buffer
 lol = requests.get(link)
 open(buffer, "wb").write(lol.content)
 
-img = cv.imread('/home/cloud/POKE-905/pokemon/sigilyph.png', 1)
-print(img)
-
+img = Image.open(buffer, 'r')
+l = list(img.getdata())
+for i in l: 
+    for x in i: 
+        if x not in noise:
+            print(x)
 '''
 import bs4
 import requests
