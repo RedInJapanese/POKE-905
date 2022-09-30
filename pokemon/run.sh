@@ -1,5 +1,3 @@
-pip install bs4
-pip install requests
-pip install random
+pip install -r requirements.txt
 
 python crawler.py
