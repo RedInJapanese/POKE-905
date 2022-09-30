@@ -2,6 +2,7 @@ import bs4
 import requests
 from random import seed
 from random import randint
+import cv
 
 url = 'https://raw.githubusercontent.com/msikma/pokesprite/master/icons/pokemon/regular/'
 
@@ -21,6 +22,8 @@ link = url+buffer
 lol = requests.get(link)
 open(buffer, "wb").write(lol.content)
 
+img = cv.imread('/home/cloud/POKE-905/pokemon/sigilyph.png', 1)
+print(img)
 
 '''
 import bs4
