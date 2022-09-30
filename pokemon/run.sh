@@ -1,4 +1,4 @@
-pip install -r requirements.txt
+pip install -rs requirements.txt
 
 python crawler.py
 mv -v rgb.txt ..
