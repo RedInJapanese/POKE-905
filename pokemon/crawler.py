@@ -6,7 +6,7 @@ from random import seed
 from random import randint
 from PIL import Image
 
-url = 'https://raw.githubusercontent.com/msikma/pokesprite/master/icons/pokemon/regular/'
+url = 'https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/'
 
 file = open('list.txt')
 count = 0

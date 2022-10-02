@@ -769,7 +769,7 @@ Golisopod
 Sandygast
 Palossand
 Pyukumuku
-Type: Null
+Type-Null
 Silvally
 Minior
 Komala
@@ -782,10 +782,10 @@ Dhelmise
 Jangmo-o
 Hakamo-o
 Kommo-o
-Tapu Koko
-Tapu Lele
-Tapu Bulu
-Tapu Fini
+Tapu-Koko
+Tapu-Lele
+Tapu-Bulu
+Tapu-Fini
 Cosmog
 Cosmoem
 Solgaleo
@@ -862,8 +862,8 @@ Grimmsnarl
 Obstagoon
 Perrserker
 Cursola
-Sirfetch’d
-Mr. Rime
+Sirfetchd
+Mr-Rime
 Runerigus
 Milcery
 Alcremie

@@ -2,7 +2,7 @@ import bs4
 import requests
 from random import seed
 
-url = 'https://raw.githubusercontent.com/msikma/pokesprite/master/icons/pokemon/regular/'
+url = 'https://raw.githubusercontent.com/msikma/pokesprite/master/pokemon-gen8/regular/'
 
 file = open('list.txt')
 
