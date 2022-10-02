@@ -13,7 +13,7 @@ count = 0
 db = {}
 noise = [0, 32, 255, 82]
 for x in file: 
-    db[count] = x.strip()
+    db[count] = x.strip().lower()
     count+=1
 
 random = randint(0,720)

@@ -8,7 +8,7 @@ file = open('list.txt')
 
 
 for i in file:
-    mon = str(i).strip()
+    mon = str(i).strip().lower()
     print("Retrieving ", mon)
     mon+='.png'
     link = url+mon
